@@ -1,0 +1,269 @@
+ body {
+	background:url('img/background.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+#menu {
+	height: 65px;
+	width: 760px;
+	padding-left: 0;
+	margin-bottom: 0;
+	float: left;
+}
+
+#menu li {
+    float: left;
+    height: 65px;
+    width: 145px;
+    display: block;
+    background: #5C676C;    
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;    
+    margin-right: 1px;   
+    text-align: center;
+	padding-top: 16px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: solid white 1px;
+}
+
+
+#menu li:hover{
+	background: #4875B4;
+	color:;
+	cursor: pointer;
+}
+
+#menu li.active{    
+    background: #4875B4;
+}  
+
+.pro-icon{
+	height: 35px;
+    vertical-align:middle;
+    margin-right: 5px;
+	position: relative;
+}
+.social{
+	float: left;
+}
+.social img{
+	height: 60px;
+	margin-top: 16px;
+
+}
+.container {
+    background: #FFFFFF;
+    width: 960px;
+    margin-right: 60px;
+    position: relative;    
+    min-height: 610px;
+}
+.welcome {
+	height: 280px;
+	clear: both;	
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.photo {
+	float: left;
+	height: 280px;
+	width: 280px;
+	background: #343C41;
+}
+.photo>img{
+	height: 280px;
+}
+.personal-info {
+	float: right;
+	height: 280px;
+	width: 580px;
+	background: #343C41;
+}
+.name-position {
+	height: 100px;
+	width: 580px;
+	position: relative;
+	
+}
+.name {	
+	color: white;
+	font-size: 48px;	
+	padding-left: 62px;
+}
+.position {
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: white;
+	font-size: 14px;
+	font-family: verdana;
+	padding: 0 18px;
+	background: #4875B4;
+}
+.motto {
+	height: 50px;
+	color: #2D393F;
+	font-style: italic;
+	font-size: 27px;
+	text-align: center;
+	padding: 45px 0;
+	background: url(img/quotes.png);
+	background-position: top center;
+}
+.motto-text {
+	height: 50px;
+	line-height: 50px;
+	color: #4875B4;
+}
+
+.content-inner {
+clear: both;
+}
+.left-sidebar {
+	float: left;
+	padding: 50px;
+	width: 230px;
+	background: url(img/sidebar-shadow.png);  
+	background-position: right top;
+	background-repeat: no-repeat;;
+}
+.block {
+	padding-bottom: 20px;
+	clear: both;
+}
+.block-content {
+	clear: both;
+}
+.field span.text {
+	color: #42494C;
+	font-weight: 600;
+}
+.content {
+	float: left;
+	width: 530px;
+	background: #FFFFFF;
+	padding: 50px;
+}
+.body {
+	padding-bottom: 40px;
+}
+.clear {
+	clear: both;
+	height: 0;
+}
+
+
+.text-field {
+	height: 100%;
+	clear: both;
+	width: 84%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+.text-field-left {
+	width: 70px;
+	padding: 35px 20px 20px 20px;
+	height: 50px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	float: left;
+	background: #4875B4;
+}
+.text-field-right {	
+	padding-top: 13px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 130px;
+	float: inherit;
+	border: 1px solid #EAEBEB;
+	border-left: none;
+}
+.title {
+	font-size: 18px;
+	color: #2D393F;
+}
+.meta {
+	font-size: 14px;
+	font-style: italic;
+	color: #C1C8CC;
+	line-height: 24px;
+}
+.without-icon span {
+	padding: 0;
+	background: none;
+}
+.text {
+	margin-top: 5px;
+}
+
+.text ul {
+	padding-left: 0px;
+}
+
+#resume { display: none; }
+#projects { display: none; }
+#blog { display: none; }
+#contact { display: none; }
+
+
+.section-title {
+	color: #4875B4;
+	font-size: 48px;	
+	padding-left: 60px;
+	padding-top: 40px;
+}
+
+.section-text {
+	font-size: 16px;
+	font-family: verdana;	
+	padding-left: 60px;
+	padding-top: 20px;
+}
+
+#img-blog {
+	width: 800px;
+	position: relative;
+	padding-left: 60px;
+	padding-top: 10px;
+}
+
+.img-job {
+	float:right;
+}
+
+.img-projects {
+	width: 110px;
+	padding-top: 10px;
+	float: left;
+}
+
+#img-contact {
+	width: 300px;
+	padding-left: 5px;
+	opacity: 0.7;
+	padding-left: 60px;
+	padding-top: 30px;
+	float: left;
+}
